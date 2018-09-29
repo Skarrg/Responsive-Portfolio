@@ -150,6 +150,57 @@ margin-right: 300px;
     color: white;
 }
 
-h2 {
+@media screen and (max-width: 640px) {
 
+	/* switches to a header that's 100% across */
+	header	{
+		float: left;
+		background-color: #4daba6;
+		border-bottom: none;
+		color: white;
+		height: 100%;
+		width: 100%;
+		margin-bottom: 0;
+		text-align: center;
+		font-weight: bold;
+		vertical-align: middle;
+		padding-top: 3%;
+		margin-left: 0%;
+	}
+
+	/* Navbar below header */
+	nav	{
+		clear: both;
+		width: 100%;
+		text-align: center;
+		float: left;
+        border-bottom: 2px solid #cccccc;
+        background-color: white;
+	}
+
+	.header2 {
+		border-bottom: none;
+		/* Position header static. */
+		z-index: -1;
+	}
+
+	.box {
+		width: 100%;
+	}
+
+	#biography {
+		clear: both;
+		float: left;
+		overflow: auto 0;
+		width: initial;
+		margin: 2%;
+	}
+
+	/* Image full width with space before paragraph. */
+	.me {
+		width: 100%;
+		height: 100%;
+		margin: 15px;
+	}
+  
 }
